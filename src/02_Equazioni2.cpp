@@ -22,7 +22,7 @@ void ScriviSoluzioni(float c1, float c2, float c3) {
     float delta;   // discriminante
     float x1, x2;  // soluzioni
     delta = CalcolaDelta(c1, c2, c3);
-    cout << endl << "Delta = " << delta << endl;
+    cout << "Delta = " << delta << endl;
     if (delta < 0) {
         cout << "L'equazione non ha soluzioni reali." << endl;
     } else {
@@ -52,6 +52,7 @@ int main() {
         cin >> b;
         cout << "Inserisci il termine noto:" << endl;
         cin >> c;
+        cout << endl;
         if (a != 0) {
             ScriviSoluzioni(a, b, c);
         } else {
