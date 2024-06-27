@@ -13,7 +13,7 @@ int main() {
     do {
         cout << endl
              << "Premi <s> per visualizzare il mese, <r> per cercare un giorno "
-                "o un altro tasto per uscire"
+                "o un altro tasto per uscire."
              << endl;
         cin >> risp;
         if (risp == 's' || risp == 'S') {
