@@ -106,8 +106,7 @@ void Scambia(int& a, int& b) {
 
 void Stampa2(int v[], int d) {
     for (int i = 0; i < d; i++) {
-        cout << i + 1 << ": ";
-        cout << v[i] << endl;
+        cout << i + 1 << ": " << v[i] << endl;
     }
 }
 
