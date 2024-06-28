@@ -137,7 +137,7 @@ int main() {
                                      << " numeri ordinati sono: " << a << ", "
                                      << b << ", " << c << ", " << d << ", " << e
                                      << ", " << f << "." << endl;
-                            }
+                            }  // 6
                         } else {
                             cout << "Inserimento dei " << cont
                                  << " numeri completato." << endl
@@ -161,7 +161,7 @@ int main() {
                                  << " numeri ordinati sono: " << a << ", " << b
                                  << ", " << c << ", " << d << ", " << e << "."
                                  << endl;
-                        }
+                        }  // 5
                     } else {
                         cout << "Inserimento dei " << cont
                              << " numeri completato." << endl
@@ -179,7 +179,7 @@ int main() {
                         cout << "I " << cont << " numeri ordinati sono: " << a
                              << ", " << b << ", " << c << ", " << d << "."
                              << endl;
-                    }
+                    }  // 4
                 } else {
                     cout << "Inserimento dei " << cont << " numeri completato."
                          << endl
@@ -192,7 +192,7 @@ int main() {
                     Ordina(b, c);
                     cout << "I " << cont << " numeri ordinati sono: " << a
                          << ", " << b << ", " << c << "." << endl;
-                }
+                }  // 3
             } else {
                 cout << "Inserimento dei " << cont << " numeri completato."
                      << endl
@@ -203,10 +203,10 @@ int main() {
                 Ordina(a, b);
                 cout << "I " << cont << " numeri ordinati sono: " << a << ", "
                      << b << "." << endl;
-            }
+            }  // 2
         } else {
             cout << "Il numero inserito e ordinato e': " << a << "." << endl;
-        }
+        }  // 1
         cout << endl << "Vuoi continuare? <s/n>" << endl;
         cin >> risp;
     } while (risp == 's' || risp == 'S');
