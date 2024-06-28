@@ -8,5 +8,5 @@ Questo repository è stato creato esclusivamente per scopi di analisi statistica
 04. `04_Rettangolo.cpp` - Area, perimetro e diagonale di un'istanza della classe Rettangolo (2017-12-05).
 05. `05_vettore.cpp` - Array di numeri interi: ordinamento a bolla e ricerca sequenziale (2018-01-09).
 06. `06_calendario.cpp` - Calendario del mese di gennaio: stampa e ricerca di un giorno (2018-04-17).
-07. `07_voti.cpp` - ... (2018-05-08).
+07. `07_voti.cpp` - Esiti di uno scrutinio finale: alunni promossi, rimandati e bocciati (2018-05-08).
 
